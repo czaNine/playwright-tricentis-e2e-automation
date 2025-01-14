@@ -1,11 +1,11 @@
 import {test, expect} from '@playwright/test';
 import {testData} from '../data/TestData';
 import HomePage from '../page_objects/HomePage';
-import VehicleDataPage from '../page_objects/VehicleDataPage';
-import ProductDataPage from '../page_objects/ProductDataPage';
-import InsurantDataPage from '../page_objects/InsurantDataPage';
-import SelectPriceOptionPage from '../page_objects/SelectPriceOptionPage';
-import SendQuotePage from '../page_objects/SendQuotePage';
+import AutomobileVehicleDataPage from '../page_objects/AutomobileVehicleDataPage';
+import AutomobileProductDataPage from '../page_objects/AutomobileProductDataPage';
+import AutomobileInsurantDataPage from '../page_objects/AutomobileInsurantDataPage';
+import AutomobileSelectPriceOptionPage from '../page_objects/AutomobileSelectPriceOptionPage';
+import AutomobileSendQuotePage from '../page_objects/AutomobileSendQuotePage';
 
 test.describe("Tricentis Vehicle Insurance App - Automobile", () => {
   const baseURL = testData.siteData;
@@ -30,7 +30,7 @@ test.describe("Tricentis Vehicle Insurance App - Automobile", () => {
     await expect(homePage.camperTab).toBeVisible();
     await homePage.clickAutomobileTab();
 
-    const vehicleDataPage = new VehicleDataPage(page);
+    const vehicleDataPage = new AutomobileVehicleDataPage(page);
     await vehicleDataPage.validateAutomobileInsurancePage();
     await expect(vehicleDataPage.elementAutomobileInsurance).toBeVisible();
     await vehicleDataPage.validateEnterVehicleDataTab();
@@ -53,19 +53,19 @@ test.describe("Tricentis Vehicle Insurance App - Automobile", () => {
     await vehicleDataPage.populateAnnualMileage(testData);
     await vehicleDataPage.clickNext();
 
-    const insurantDataPage = new InsurantDataPage(page);
+    const insurantDataPage = new AutomobileInsurantDataPage(page);
     await insurantDataPage.populateEnterInsurantDataForm(testData);
     await insurantDataPage.clickNext();
 
-    const productDataPage = new ProductDataPage(page);
+    const productDataPage = new AutomobileProductDataPage(page);
     await productDataPage.populateEnterProductDataForm(testData);
     await productDataPage.clickNext();
 
-    const selectPriceOptionPage = new SelectPriceOptionPage(page);
+    const selectPriceOptionPage = new AutomobileSelectPriceOptionPage(page);
     await selectPriceOptionPage.selectPriceOption();
     await selectPriceOptionPage.clickNext();
 
-    const sendQuotePage = new SendQuotePage(page);
+    const sendQuotePage = new AutomobileSendQuotePage(page);
     await sendQuotePage.populateSendQuoteForm(testData);
     await sendQuotePage.clickSend();
     await sendQuotePage.validateEmailSendingSuccess();
@@ -86,7 +86,7 @@ test.describe("Tricentis Vehicle Insurance App - Automobile", () => {
     await expect(homePage.camperTab).toBeVisible();
     await homePage.clickAutomobileTab();
 
-    const vehicleDataPage = new VehicleDataPage(page);
+    const vehicleDataPage = new AutomobileVehicleDataPage(page);
     await vehicleDataPage.validateAutomobileInsurancePage();
     await expect(vehicleDataPage.elementAutomobileInsurance).toBeVisible();
     await vehicleDataPage.validateEnterVehicleDataTab();
@@ -109,15 +109,15 @@ test.describe("Tricentis Vehicle Insurance App - Automobile", () => {
     //removed annual mileage input
     await vehicleDataPage.clickNext();
 
-    const insurantDataPage = new InsurantDataPage(page);
+    const insurantDataPage = new AutomobileInsurantDataPage(page);
     await insurantDataPage.populateEnterInsurantDataForm(testData);
     await insurantDataPage.clickNext();
 
-    const productDataPage = new ProductDataPage(page);
+    const productDataPage = new AutomobileProductDataPage(page);
     await productDataPage.populateEnterProductDataForm(testData);
     await productDataPage.clickNext();
 
-    const selectPriceOptionPage = new SelectPriceOptionPage(page);
+    const selectPriceOptionPage = new AutomobileSelectPriceOptionPage(page);
     await selectPriceOptionPage.validateIncompleteFieldInputMessage();
     await expect(selectPriceOptionPage.incompleteFieldMessage).toHaveText('Please, complete the first three steps to see the price table.');
   });

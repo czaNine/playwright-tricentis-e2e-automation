@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10249","Should not proceed to 'Select Pricing Option' if required fields are missing","chromium","Tue Jan 14 12:59:35 SGT 2025","passed","Tue Jan 14 12:59:45 SGT 2025","Tricentis Vehicle Insurance App - Automobile","testScenario.spec.js","",""
+"","19036","Happy Path","chromium","Tue Jan 14 12:59:35 SGT 2025","passed","Tue Jan 14 12:59:54 SGT 2025","Tricentis Vehicle Insurance App - Automobile","testScenario.spec.js","",""
+"","22410","Happy Path","firefox","Tue Jan 14 12:59:35 SGT 2025","passed","Tue Jan 14 12:59:57 SGT 2025","Tricentis Vehicle Insurance App - Automobile","testScenario.spec.js","",""
+"","13524","Should not proceed to 'Select Pricing Option' if required fields are missing","firefox","Tue Jan 14 12:59:35 SGT 2025","passed","Tue Jan 14 12:59:49 SGT 2025","Tricentis Vehicle Insurance App - Automobile","testScenario.spec.js","",""

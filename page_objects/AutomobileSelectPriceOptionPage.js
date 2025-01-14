@@ -1,5 +1,5 @@
 
-export default class SelectPriceOptionPage{
+export default class AutomobileSelectPriceOptionPage{
   constructor(page){
     this.page = page;
     this.ultimateRadioButton = page.locator("//input[@id='selectultimate']/..");

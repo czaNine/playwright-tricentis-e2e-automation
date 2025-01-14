@@ -1,6 +1,6 @@
 import { testData } from "../data/TestData";
 
-export default class InsurantDataPage {
+export default class AutomobileInsurantDataPage {
   constructor(page){
     this.page = page;
     this.baseURL =  testData.siteData;

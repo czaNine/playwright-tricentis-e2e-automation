@@ -1,6 +1,6 @@
 import { testData } from '../data/TestData';
 
-export default class ProductDataPage{
+export default class AutomobileProductDataPage{
   constructor(page){
     this.page = page;
     this.startDate = page.locator("//input[@id='startdate']");

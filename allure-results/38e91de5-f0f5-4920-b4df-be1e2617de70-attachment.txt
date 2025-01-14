@@ -1,0 +1,26 @@
+Navigate to Open URL
+Validate Automobile Tab
+Validate Truck Tab
+Validate Motorcycle Tab
+Validate Camper Tab
+Click Automobile Tab
+Validate Automobile Insurance Page
+Validate Enter Vehicle Data Tab
+Validate Enter Insurant Data Tab
+Validate Enter Product Data Tab
+Validate Select Price Option Tab
+Validate Send Quote Tab
+Populate Make
+Populate Engine Performance
+Populate Date of Manufacture
+Populate Number of Seats
+Populate Fuel Type
+Populate List Price
+Populate License Plate Number
+Click Next
+Populate Enter Insurant Data Form
+Click Next
+Populate Enter Product Data Form
+Click Next
+Valiate Error Message when the inputted required fields are incomplete
+Close Browser

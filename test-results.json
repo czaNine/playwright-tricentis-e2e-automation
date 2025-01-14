@@ -1,0 +1,586 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\chari\\Documents\\Playwright\\Tricentis\\playwright.config.js",
+    "rootDir": "C:/Users/chari/Documents/Playwright/Tricentis/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "C:\\Users\\chari\\Documents\\Playwright\\Tricentis\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/chari/Documents/Playwright/Tricentis/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/chari/Documents/Playwright/Tricentis/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/chari/Documents/Playwright/Tricentis/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/chari/Documents/Playwright/Tricentis/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "testScenario.spec.js",
+      "file": "testScenario.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Tricentis Vehicle Insurance App - Automobile",
+          "file": "testScenario.spec.js",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Happy Path",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 19036,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigate to Open URL\n"
+                        },
+                        {
+                          "text": "Validate Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Truck Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Camper Tab\n"
+                        },
+                        {
+                          "text": "Click Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Automobile Insurance Page\n"
+                        },
+                        {
+                          "text": "Validate Enter Vehicle Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Insurant Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Product Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Select Price Option Tab\n"
+                        },
+                        {
+                          "text": "Validate Send Quote Tab\n"
+                        },
+                        {
+                          "text": "Populate Make\n"
+                        },
+                        {
+                          "text": "Populate Engine Performance\n"
+                        },
+                        {
+                          "text": "Populate Date of Manufacture\n"
+                        },
+                        {
+                          "text": "Populate Number of Seats\n"
+                        },
+                        {
+                          "text": "Populate Fuel Type\n"
+                        },
+                        {
+                          "text": "Populate List Price\n"
+                        },
+                        {
+                          "text": "Populate License Plate Number\n"
+                        },
+                        {
+                          "text": "Populate Annual Mileage\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Insurant Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Product Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Select Price Option\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Send Quote Form\n"
+                        },
+                        {
+                          "text": "Click Send\n"
+                        },
+                        {
+                          "text": "Validate Success Message\n"
+                        },
+                        {
+                          "text": "Click OK Button\n"
+                        },
+                        {
+                          "text": "Close Browser\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-14T04:59:35.557Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "db3b48163fbc8d85729c-826c3a778973156acbec",
+              "file": "testScenario.spec.js",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "Should not proceed to 'Select Pricing Option' if required fields are missing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 10249,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigate to Open URL\n"
+                        },
+                        {
+                          "text": "Validate Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Truck Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Camper Tab\n"
+                        },
+                        {
+                          "text": "Click Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Automobile Insurance Page\n"
+                        },
+                        {
+                          "text": "Validate Enter Vehicle Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Insurant Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Product Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Select Price Option Tab\n"
+                        },
+                        {
+                          "text": "Validate Send Quote Tab\n"
+                        },
+                        {
+                          "text": "Populate Make\n"
+                        },
+                        {
+                          "text": "Populate Engine Performance\n"
+                        },
+                        {
+                          "text": "Populate Date of Manufacture\n"
+                        },
+                        {
+                          "text": "Populate Number of Seats\n"
+                        },
+                        {
+                          "text": "Populate Fuel Type\n"
+                        },
+                        {
+                          "text": "Populate List Price\n"
+                        },
+                        {
+                          "text": "Populate License Plate Number\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Insurant Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Product Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Valiate Error Message when the inputted required fields are incomplete\n"
+                        },
+                        {
+                          "text": "Close Browser\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-14T04:59:35.603Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "db3b48163fbc8d85729c-06d5affe33aad8778760",
+              "file": "testScenario.spec.js",
+              "line": 76,
+              "column": 7
+            },
+            {
+              "title": "Happy Path",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 22410,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigate to Open URL\n"
+                        },
+                        {
+                          "text": "Validate Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Truck Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Camper Tab\n"
+                        },
+                        {
+                          "text": "Click Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Automobile Insurance Page\n"
+                        },
+                        {
+                          "text": "Validate Enter Vehicle Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Insurant Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Product Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Select Price Option Tab\n"
+                        },
+                        {
+                          "text": "Validate Send Quote Tab\n"
+                        },
+                        {
+                          "text": "Populate Make\n"
+                        },
+                        {
+                          "text": "Populate Engine Performance\n"
+                        },
+                        {
+                          "text": "Populate Date of Manufacture\n"
+                        },
+                        {
+                          "text": "Populate Number of Seats\n"
+                        },
+                        {
+                          "text": "Populate Fuel Type\n"
+                        },
+                        {
+                          "text": "Populate List Price\n"
+                        },
+                        {
+                          "text": "Populate License Plate Number\n"
+                        },
+                        {
+                          "text": "Populate Annual Mileage\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Insurant Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Product Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Select Price Option\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Send Quote Form\n"
+                        },
+                        {
+                          "text": "Click Send\n"
+                        },
+                        {
+                          "text": "Validate Success Message\n"
+                        },
+                        {
+                          "text": "Click OK Button\n"
+                        },
+                        {
+                          "text": "Close Browser\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-14T04:59:35.546Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "db3b48163fbc8d85729c-b7942778902a3195bb5d",
+              "file": "testScenario.spec.js",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "Should not proceed to 'Select Pricing Option' if required fields are missing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 13524,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigate to Open URL\n"
+                        },
+                        {
+                          "text": "Validate Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Truck Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Camper Tab\n"
+                        },
+                        {
+                          "text": "Click Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Automobile Insurance Page\n"
+                        },
+                        {
+                          "text": "Validate Enter Vehicle Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Insurant Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Product Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Select Price Option Tab\n"
+                        },
+                        {
+                          "text": "Validate Send Quote Tab\n"
+                        },
+                        {
+                          "text": "Populate Make\n"
+                        },
+                        {
+                          "text": "Populate Engine Performance\n"
+                        },
+                        {
+                          "text": "Populate Date of Manufacture\n"
+                        },
+                        {
+                          "text": "Populate Number of Seats\n"
+                        },
+                        {
+                          "text": "Populate Fuel Type\n"
+                        },
+                        {
+                          "text": "Populate List Price\n"
+                        },
+                        {
+                          "text": "Populate License Plate Number\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Insurant Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Product Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Valiate Error Message when the inputted required fields are incomplete\n"
+                        },
+                        {
+                          "text": "Close Browser\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-14T04:59:35.545Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "db3b48163fbc8d85729c-1a4b8d3a17cea57ce893",
+              "file": "testScenario.spec.js",
+              "line": 76,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-01-14T04:59:34.902Z",
+    "duration": 24823.450999999997,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
