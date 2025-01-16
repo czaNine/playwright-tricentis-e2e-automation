@@ -1,0 +1,30 @@
+Navigate to Open URL
+Validate Automobile Tab
+Validate Truck Tab
+Validate Motorcycle Tab
+Validate Camper Tab
+Click Motorcycle Tab
+Validate Motorcycle Insurance Page
+Validate Enter Vehicle Data Tab
+Validate Enter Insurant Data Tab
+Validate Enter Product Data Tab
+Validate Select Price Option Tab
+Validate Send Quote Tab
+Populate Make
+Populate Model
+Populate Cylinder Capacity
+Populate Engine Performance
+Populate Date of Manufacture
+Populate Number of Seats
+Populate List Price
+Populate Annual Mileage
+Click Next
+Populate Enter Insurant Data Form
+Click Next
+Populate Start Date
+Populate Insurance Sum
+Populate Damage Insurance
+Populate Euro Protection
+Click Next
+Select Price Option
+Close Browser

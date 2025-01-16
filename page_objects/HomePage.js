@@ -47,4 +47,13 @@ export default class HomePage {
 
     await this.page.waitForLoadState('networkidle'); // Wait for the page to load 
   }
+
+  async clickMotorcycleTab(){
+    console.log("Click Motorcycle Tab");
+
+    await this.motorcycleTab.waitFor({ state: 'visible', timeout: 15000 });
+    await this.motorcycleTab.click();
+
+    await this.page.waitForLoadState('networkidle');
+  }
 }

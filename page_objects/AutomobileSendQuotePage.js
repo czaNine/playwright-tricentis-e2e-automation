@@ -1,6 +1,6 @@
 import { testData } from '../data/TestData';
 
-export default class SendQuotePage{
+export default class AutomobileSendQuotePage{
   constructor(page){
     this.page = page;
     this.email = page.locator("//input[@id='email']");
@@ -43,7 +43,8 @@ export default class SendQuotePage{
   async validateEmailSendingSuccess(){
     console.log("Validate Success Message");
 
-    await this.sendingEmailSuccess.waitFor({ state: 'visible', timeout: 15000 });
+    const sendingEmailSuccess = this.sendingEmailSuccess;
+    await sendingEmailSuccess.waitFor({ state: 'visible', timeout: 15000 });
   }
 
   async clickOKButton() {

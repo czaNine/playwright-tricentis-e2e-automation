@@ -28,5 +28,5 @@ export const testData = {
   email: "erziwerze@test.com",
   username: "erziwerze",
   password: "passErzeWerze1234",
-  confirmPassword: "passErzeWerze1234"
+  confirmPassword: "passErzeWerze1234",
 }

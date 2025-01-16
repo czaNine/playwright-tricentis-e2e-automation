@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 6
     },
     "preserveOutput": "always",
     "reporter": [
@@ -86,7 +86,7 @@
         {
           "title": "Tricentis Vehicle Insurance App - Automobile",
           "file": "testScenario.spec.js",
-          "line": 10,
+          "line": 16,
           "column": 6,
           "specs": [
             {
@@ -104,7 +104,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 19036,
+                      "duration": 19303,
                       "errors": [],
                       "stdout": [
                         {
@@ -206,7 +206,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-14T04:59:35.557Z",
+                      "startTime": "2025-01-16T05:54:54.421Z",
                       "attachments": []
                     }
                   ],
@@ -215,7 +215,7 @@
               ],
               "id": "db3b48163fbc8d85729c-826c3a778973156acbec",
               "file": "testScenario.spec.js",
-              "line": 20,
+              "line": 26,
               "column": 7
             },
             {
@@ -233,7 +233,7 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 10249,
+                      "duration": 9727,
                       "errors": [],
                       "stdout": [
                         {
@@ -317,7 +317,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-14T04:59:35.603Z",
+                      "startTime": "2025-01-16T05:54:54.293Z",
                       "attachments": []
                     }
                   ],
@@ -326,7 +326,7 @@
               ],
               "id": "db3b48163fbc8d85729c-06d5affe33aad8778760",
               "file": "testScenario.spec.js",
-              "line": 76,
+              "line": 82,
               "column": 7
             },
             {
@@ -342,9 +342,9 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 4,
                       "status": "passed",
-                      "duration": 22410,
+                      "duration": 22860,
                       "errors": [],
                       "stdout": [
                         {
@@ -446,7 +446,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-14T04:59:35.546Z",
+                      "startTime": "2025-01-16T05:54:54.331Z",
                       "attachments": []
                     }
                   ],
@@ -455,7 +455,7 @@
               ],
               "id": "db3b48163fbc8d85729c-b7942778902a3195bb5d",
               "file": "testScenario.spec.js",
-              "line": 20,
+              "line": 26,
               "column": 7
             },
             {
@@ -471,9 +471,9 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 5,
                       "status": "passed",
-                      "duration": 13524,
+                      "duration": 13832,
                       "errors": [],
                       "stdout": [
                         {
@@ -557,7 +557,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-01-14T04:59:35.545Z",
+                      "startTime": "2025-01-16T05:54:54.311Z",
                       "attachments": []
                     }
                   ],
@@ -566,7 +566,549 @@
               ],
               "id": "db3b48163fbc8d85729c-1a4b8d3a17cea57ce893",
               "file": "testScenario.spec.js",
-              "line": 76,
+              "line": 82,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Tricentis Vehicle Insurance App - Motorcycle",
+          "file": "testScenario.spec.js",
+          "line": 139,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Happy Path",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 19621,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigate to Open URL\n"
+                        },
+                        {
+                          "text": "Validate Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Truck Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Camper Tab\n"
+                        },
+                        {
+                          "text": "Click Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Insurance Page\n"
+                        },
+                        {
+                          "text": "Validate Enter Vehicle Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Insurant Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Product Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Select Price Option Tab\n"
+                        },
+                        {
+                          "text": "Validate Send Quote Tab\n"
+                        },
+                        {
+                          "text": "Populate Make\n"
+                        },
+                        {
+                          "text": "Populate Model\n"
+                        },
+                        {
+                          "text": "Populate Cylinder Capacity\n"
+                        },
+                        {
+                          "text": "Populate Engine Performance\n"
+                        },
+                        {
+                          "text": "Populate Date of Manufacture\n"
+                        },
+                        {
+                          "text": "Populate Number of Seats\n"
+                        },
+                        {
+                          "text": "Populate List Price\n"
+                        },
+                        {
+                          "text": "Populate Annual Mileage\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Insurant Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Start Date\n"
+                        },
+                        {
+                          "text": "Populate Insurance Sum\n"
+                        },
+                        {
+                          "text": "Populate Damage Insurance\n"
+                        },
+                        {
+                          "text": "Populate Euro Protection\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Select Price Option\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Email\n"
+                        },
+                        {
+                          "text": "Populate Username\n"
+                        },
+                        {
+                          "text": "Populate Password\n"
+                        },
+                        {
+                          "text": "Populate Confirm Password\n"
+                        },
+                        {
+                          "text": "Click Send\n"
+                        },
+                        {
+                          "text": "Validate Success Message\n"
+                        },
+                        {
+                          "text": "Click OK Button\n"
+                        },
+                        {
+                          "text": "Close Browser\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-16T05:54:54.330Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "db3b48163fbc8d85729c-fe63d4f705aef48fd562",
+              "file": "testScenario.spec.js",
+              "line": 149,
+              "column": 7
+            },
+            {
+              "title": "Should not proceed to 'Select Pricing Option' if required fields are missing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 9811,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigate to Open URL\n"
+                        },
+                        {
+                          "text": "Validate Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Truck Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Camper Tab\n"
+                        },
+                        {
+                          "text": "Click Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Insurance Page\n"
+                        },
+                        {
+                          "text": "Validate Enter Vehicle Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Insurant Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Product Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Select Price Option Tab\n"
+                        },
+                        {
+                          "text": "Validate Send Quote Tab\n"
+                        },
+                        {
+                          "text": "Populate Make\n"
+                        },
+                        {
+                          "text": "Populate Model\n"
+                        },
+                        {
+                          "text": "Populate Cylinder Capacity\n"
+                        },
+                        {
+                          "text": "Populate Engine Performance\n"
+                        },
+                        {
+                          "text": "Populate Date of Manufacture\n"
+                        },
+                        {
+                          "text": "Populate Number of Seats\n"
+                        },
+                        {
+                          "text": "Populate List Price\n"
+                        },
+                        {
+                          "text": "Populate Annual Mileage\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Insurant Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Start Date\n"
+                        },
+                        {
+                          "text": "Populate Insurance Sum\n"
+                        },
+                        {
+                          "text": "Populate Euro Protection\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Valiate Error Message when the inputted required fields are incomplete\n"
+                        },
+                        {
+                          "text": "Close Browser\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-16T05:54:54.330Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "db3b48163fbc8d85729c-6956b50236eaf9fff85f",
+              "file": "testScenario.spec.js",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "Happy Path",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 20425,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigate to Open URL\n"
+                        },
+                        {
+                          "text": "Validate Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Truck Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Camper Tab\n"
+                        },
+                        {
+                          "text": "Click Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Insurance Page\n"
+                        },
+                        {
+                          "text": "Validate Enter Vehicle Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Insurant Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Product Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Select Price Option Tab\n"
+                        },
+                        {
+                          "text": "Validate Send Quote Tab\n"
+                        },
+                        {
+                          "text": "Populate Make\n"
+                        },
+                        {
+                          "text": "Populate Model\n"
+                        },
+                        {
+                          "text": "Populate Cylinder Capacity\n"
+                        },
+                        {
+                          "text": "Populate Engine Performance\n"
+                        },
+                        {
+                          "text": "Populate Date of Manufacture\n"
+                        },
+                        {
+                          "text": "Populate Number of Seats\n"
+                        },
+                        {
+                          "text": "Populate List Price\n"
+                        },
+                        {
+                          "text": "Populate Annual Mileage\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Insurant Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Start Date\n"
+                        },
+                        {
+                          "text": "Populate Insurance Sum\n"
+                        },
+                        {
+                          "text": "Populate Damage Insurance\n"
+                        },
+                        {
+                          "text": "Populate Euro Protection\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Select Price Option\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Email\n"
+                        },
+                        {
+                          "text": "Populate Username\n"
+                        },
+                        {
+                          "text": "Populate Password\n"
+                        },
+                        {
+                          "text": "Populate Confirm Password\n"
+                        },
+                        {
+                          "text": "Click Send\n"
+                        },
+                        {
+                          "text": "Validate Success Message\n"
+                        },
+                        {
+                          "text": "Click OK Button\n"
+                        },
+                        {
+                          "text": "Close Browser\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-16T05:55:05.689Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "db3b48163fbc8d85729c-a40c502ce500f38f3a3d",
+              "file": "testScenario.spec.js",
+              "line": 149,
+              "column": 7
+            },
+            {
+              "title": "Should not proceed to 'Select Pricing Option' if required fields are missing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 11676,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Navigate to Open URL\n"
+                        },
+                        {
+                          "text": "Validate Automobile Tab\n"
+                        },
+                        {
+                          "text": "Validate Truck Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Camper Tab\n"
+                        },
+                        {
+                          "text": "Click Motorcycle Tab\n"
+                        },
+                        {
+                          "text": "Validate Motorcycle Insurance Page\n"
+                        },
+                        {
+                          "text": "Validate Enter Vehicle Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Insurant Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Enter Product Data Tab\n"
+                        },
+                        {
+                          "text": "Validate Select Price Option Tab\n"
+                        },
+                        {
+                          "text": "Validate Send Quote Tab\n"
+                        },
+                        {
+                          "text": "Populate Make\n"
+                        },
+                        {
+                          "text": "Populate Model\n"
+                        },
+                        {
+                          "text": "Populate Cylinder Capacity\n"
+                        },
+                        {
+                          "text": "Populate Engine Performance\n"
+                        },
+                        {
+                          "text": "Populate Date of Manufacture\n"
+                        },
+                        {
+                          "text": "Populate Number of Seats\n"
+                        },
+                        {
+                          "text": "Populate List Price\n"
+                        },
+                        {
+                          "text": "Populate Annual Mileage\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Enter Insurant Data Form\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Populate Start Date\n"
+                        },
+                        {
+                          "text": "Populate Insurance Sum\n"
+                        },
+                        {
+                          "text": "Populate Euro Protection\n"
+                        },
+                        {
+                          "text": "Click Next\n"
+                        },
+                        {
+                          "text": "Valiate Error Message when the inputted required fields are incomplete\n"
+                        },
+                        {
+                          "text": "Close Browser\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-16T05:55:05.680Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "db3b48163fbc8d85729c-74cf80facfc9adc06cc7",
+              "file": "testScenario.spec.js",
+              "line": 211,
               "column": 7
             }
           ]
@@ -576,9 +1118,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-01-14T04:59:34.902Z",
-    "duration": 24823.450999999997,
-    "expected": 4,
+    "startTime": "2025-01-16T05:54:53.338Z",
+    "duration": 33986.617,
+    "expected": 8,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
